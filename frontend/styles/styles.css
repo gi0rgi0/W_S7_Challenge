@@ -43,6 +43,7 @@ form,
   display: flex;
   flex-direction: column;
   max-width: 290px;
+  margin:6px;
 }
 
 .input-group:has(.error) {
@@ -53,6 +54,7 @@ form,
 .input-group {
   border: 1px solid lightgray;
   margin-top: 1rem;
+  margin-bottom:1rem;
   padding: 1rem;
 }
 
@@ -62,7 +64,8 @@ select {
 }
 
 input[type=checkbox] {
-  margin-right: 0.5rem;
+  margin-right: 5rem;
+  
 }
 
 input[type=submit] {
